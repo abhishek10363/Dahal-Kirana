@@ -1,0 +1,60 @@
+/* ===================================
+========= register page  */
+.form-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 70vh;
+  flex-direction: column;
+  background-color: hsl(340, 67%, 93%);
+  /* background-image: linear-gradient(0deg, #ffdee9 0%, #545f6b 100%); */
+}
+
+.form-container form {
+  box-shadow: rgba(27, 22, 22, 0.35) 0px 5px 15px;
+  padding: 20px;
+  background-color: #e1cece;
+}
+.form-container form:hover{
+  border: 1px solid #908689;
+  background:#e8dfe2;
+
+}
+
+.form-container form .title {
+  text-align: center;
+  margin-bottom: 15px;
+  font-weight: bold;
+  font-family: "Playfair Display", serif;
+}
+
+.form-container form input {
+  border: none;
+  border-bottom: 1px solid #b11c1c;
+  border-radius: 0;
+  background: transparent;
+  text-align: center;
+}
+
+.form-container form button {
+  border: 1px solid rgb(153, 13, 13);
+  border-radius: 0;
+  background-color: #a93b3b;
+  color: white;
+  width: 250px;
+}
+
+.form-container form button:hover {
+  border: 1px solid rgb(129, 115, 115);
+  background: #7f7474; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #434343,
+    #433434
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #d36464,
+    #ac3f3f
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}

@@ -1,0 +1,40 @@
+.khalti-payment-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    border-radius: 8px;
+  }
+  
+  .payment-form .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  .payment-form .form-label {
+    font-weight: bold;
+  }
+  
+  .payment-form .form-control {
+    height: 45px;
+    padding: 10px;
+    font-size: 1rem;
+  }
+  
+  .payment-form .btn-block {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .payment-form .btn-primary {
+    background-color: #60418e;
+    border-color: #53387b;
+  }
+  
+  .payment-form .btn-primary:hover {
+    background-color: #6c5ab8;
+    border-color: #6c5ab8;
+  }
+  

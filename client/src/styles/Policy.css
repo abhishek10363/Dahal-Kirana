@@ -1,0 +1,32 @@
+/* Policy.css */
+
+.policy-container {
+    padding: 50px 0;
+  }
+  
+  .policy-image {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .policy-content {
+    padding: 0 20px;
+  }
+  
+  .policy-content h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .policy-content p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
+  @media (max-width: 768px) {
+    .policy-content {
+      padding: 0;
+    }
+  }
+  

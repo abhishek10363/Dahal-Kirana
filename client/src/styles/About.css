@@ -1,0 +1,32 @@
+/* About.css */
+
+.about-container {
+    padding: 50px 0;
+  }
+  
+  .about-image {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .about-content {
+    padding: 0 20px;
+  }
+  
+  .about-content h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .about-content p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
+  @media (max-width: 768px) {
+    .about-content {
+      padding: 0;
+    }
+  }
+  
